@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fake Data Generator</title>
+	<link rel="stylesheet" type="text/css" href="in.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+	<script src="in.js"></script>
+</head>
+<body onload="showIpAddress()">
+	<div class="container">
+		<h1>Fake Data Generator</h1>
+		<div class="form">
+			<label for="num-records">Number of Records:</label>
+			<input type="number" id="num-records" value="10">
+			<button onclick="generateData()">Generate</button>
+		</div>
+        <p id="ip-address" style="color: white; text-align: center;"></p>
+		<div class="data-list" id="data-list">
+		</div>
+	</div>
+    <div class="bottom-container">
+        <footer>
+            <p style="text-align: center; color: white;"><strong>Api Used Is<a href="https://github.com/faker-js/faker" target="_blank" style="color: white;">Faker Api</a></strong></p>
+            <p style="text-align: center; color: white;"><strong>©All-Rights-Reserved<a href="https://github.com/akhilathuluri" target="_blank" style="color: white;">Athuluri Akhil</a></strong></p>
+        </footer>
+    </div>
+</body>
+</html>
